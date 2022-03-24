@@ -1,0 +1,35 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    min-height: 100vh;
+    
+    border-right: 1px solid lightcoral;
+    padding: 20px;
+    .logo{
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+    p{  
+        color: rgb(221, 120, 120);
+        margin: 0px 0px 10px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    ul{
+        list-style: none;
+        li{
+            cursor: pointer;
+            color: rgb(81, 81, 255);
+            display: flex;
+            padding: 10px;
+            align-items: center;
+            gap: 5px;
+            letter-spacing: 1px;
+            &:hover{
+                background-color: lightsalmon;
+                color: rgb(41, 41, 41);
+            }
+        }
+    }
+}

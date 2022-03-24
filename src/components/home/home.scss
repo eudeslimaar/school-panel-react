@@ -1,0 +1,34 @@
+.home{
+
+    display: flex;
+    .homeContainer{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+
+        .turnos{
+            padding: 20px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .charts{
+            display: flex;
+            padding: 20px;
+            justify-content: space-between;
+            .left,
+            .right{
+                height: 300px;
+            }
+            .left{
+                border: 1px solid lightgreen;
+                width: 65%;
+            }
+            .right{
+                border: 1px solid lightsteelblue;
+                width: 30%;
+            }
+        }
+    }
+    
+
+}
