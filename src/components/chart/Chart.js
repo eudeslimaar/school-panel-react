@@ -1,16 +1,10 @@
 import  './chart.scss'
-import React, { PureComponent } from 'react';
 import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 const data = [
+  
   {
-    name: 'Page A',
-    uv: 4000,
-    pv: 2400,
-    amt: 2400,
-  },
-  {
-    name: 'Page B',
+    name: 'Mañana',
     uv: 3000,
     pv: 1398,
     amt: 2210,
